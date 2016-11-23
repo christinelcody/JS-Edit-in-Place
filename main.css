@@ -1,0 +1,28 @@
+* {
+-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*styling*/
+.userInfo,
+input {
+  padding: 1em;
+  width: 185px;
+}
+.userInfo {
+  border: 1px solid black;
+  background-color: LightBlue;
+}
+.userInfo:hover {
+  background-color: CornFlowerBlue;
+  cursor: pointer;
+}
+.userInput {}
+li {
+  list-style-type: none;
+}
